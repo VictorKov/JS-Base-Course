@@ -74,7 +74,7 @@ console.log(products);*/
 
 // ******ЗАДАНИЕ 4********* //
 
-const products = [
+/*const products = [
     {
         id: 3,
         price: 127,
@@ -109,6 +109,14 @@ let sortedPrice = products.sort(function (item1,item2){
     return item1.price - item2.price;
 });
 
-console.log(sortedPrice);
+console.log(sortedPrice);*/
+
+// ******ЗАДАНИЕ 6********* //
+
+let m = "";
+
+for (let i = 0; i < 21; i++) {
+    console.log(m += "x");
+}
 
 
