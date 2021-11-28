@@ -73,7 +73,7 @@ products.forEach(function (product){
 console.log(products);*/
 
 // ******ЗАДАНИЕ 4********* //
-
+/*
 const products = [
     {
         id: 3,
@@ -109,6 +109,15 @@ let sortedPrice = products.sort(function (item1,item2){
     return item1.price - item2.price;
 });
 
-console.log(sortedPrice);
+console.log(sortedPrice);*/
+
+// ******ЗАДАНИЕ 6********* //
+let i = 0;
+let t = "";
+while (i < 21){
+    console.log(t += "x");
+    i++;
+}
+
 
 
