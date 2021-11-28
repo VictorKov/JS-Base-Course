@@ -112,11 +112,11 @@ let sortedPrice = products.sort(function (item1,item2){
 console.log(sortedPrice);*/
 
 // ******ЗАДАНИЕ 6********* //
-let i = 0;
-let t = "";
-while (i < 21){
-    console.log(t += "x");
-    i++;
+
+let m = "";
+
+for (let i = 0; i < 21; i++) {
+    console.log(m += "x");
 }
 
 
