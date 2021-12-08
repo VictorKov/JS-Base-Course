@@ -24,7 +24,11 @@
     объект события, передаваемый в функцию-обработчик клика. -->
 
     <script>
-        
+        'use strict';
+        let hello = document.querySelector('ul');
+        hello.addEventListener('click', (event) =>{
+            console.log(event.target);
+        })
     </script>
 </body>
 </html>
