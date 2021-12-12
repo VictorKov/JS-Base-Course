@@ -41,7 +41,16 @@
     -->
 
     <script>
-        
+        'use strict';
+        let hello = document.querySelectorAll('img');
+
+        window.setTimeout(addPicture, 3000);
+
+        function addPicture(){
+            for (let i = 0; i < hello.length; i++) {
+                hello[i].setAttribute('src', `images/${i + 1}.jpg`);
+            }
+        }
     </script>
 </body>
 </html>
