@@ -36,7 +36,18 @@
      -->
 
     <script>
-        
+        'use strict';
+
+        let formEl = document.querySelector('form');
+        let input = document.querySelectorAll('input');
+        formEl.addEventListener('submit', (event) => {
+            input.forEach(value => {
+                if (value.value === ''){
+                    value.style.borderColor = 'red';
+                    event.preventDefault();
+                }
+            })
+        })
     </script>
 </body>
 </html>

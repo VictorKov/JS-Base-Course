@@ -41,10 +41,15 @@
     -->
 
     <script>
-
+        'use strict';
+        let hello = document.querySelectorAll('button');
+        hello.forEach(value => {
+            value.addEventListener('click', buttonClickHandler);
+        })
 
 		function buttonClickHandler(event) {
-
+           event.currentTarget.parentNode.style.background = 'lightgreen';
+           event.target.innerText = 'Добавлено';
 		}
     </script>
 </body>
