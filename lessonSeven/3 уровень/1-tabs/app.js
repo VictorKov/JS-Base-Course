@@ -12,7 +12,8 @@ const texts = {
     обработчик клика функцию clickHandler.
 */
 
-
+let txt = document.querySelector('.text');
+let navLinks = document.querySelectorAll('.nav-link');
 /**
  * Обработчик клика по .nav-link
  * @param {MouseEvent} event 
