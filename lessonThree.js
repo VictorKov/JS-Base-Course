@@ -1,10 +1,9 @@
-/*
 'use strict';
 
-// ******ЗАДАНИЕ 1*********!//
+// ******ЗАДАНИЕ 1*********//
 
 
-/!*
+/*
 for (let i = 0; i < 11; i++) {
     if (i === 0) {
         console.log("ноль");
@@ -15,12 +14,12 @@ for (let i = 0; i < 11; i++) {
     } else console.log("нечетное");
 
 }
-*!/
+*/
 
 
 // ******ЗАДАНИЕ 2********* //
 
-/!*const post = {
+/*const post = {
     author: "John", //вывести этот текст
     postId: 23,
     comments: [
@@ -47,11 +46,11 @@ for (let i = 0; i < 11; i++) {
 
 console.log(post.author);
 console.log(post.comments[0].rating.dislikes);
-console.log(`id: ${post.comments[1].rating.dislikes} and text: ${post.comments[1].text}`);*!/
+console.log(`id: ${post.comments[1].rating.dislikes} and text: ${post.comments[1].text}`);*/
 
 // ******ЗАДАНИЕ 3********* //
 
-/!*
+/*
 const products = [
     {
         id: 3,
@@ -71,11 +70,11 @@ products.forEach(function (product){
     product.price = product.price - ((product.price / 100) * 15);
 });
 
-console.log(products);*!/
+console.log(products);*/
 
 // ******ЗАДАНИЕ 4********* //
 
-/!*const products = [
+const products = [
     {
         id: 3,
         price: 127,
@@ -110,15 +109,6 @@ let sortedPrice = products.sort(function (item1,item2){
     return item1.price - item2.price;
 });
 
-console.log(sortedPrice);*!/
-
-// ******ЗАДАНИЕ 6********* //
-
-let m = "";
-
-for (let i = 0; i < 21; i++) {
-    console.log(m += "x");
-}
+console.log(sortedPrice);
 
 
-*/

@@ -48,7 +48,7 @@ function math(c,d) {
     if (c >= 0 && d >= 0){
         alert(c - d);
     }
-    else if (c <= 0 && d <= 0){
+    else if (c < 0 && d < 0){
         alert(c * d);
     }else alert(a + b);
 }
