@@ -20,7 +20,12 @@
     -->
 
     <script>
-        
+        'use strict';
+
+        let hello = document.querySelectorAll('button');
+        hello.forEach(value => {
+            console.log(value.dataset);
+        })
     </script>
 </body>
 </html>
